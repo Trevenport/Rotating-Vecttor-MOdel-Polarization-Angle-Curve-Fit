@@ -7,13 +7,13 @@ matplotlib for the plots.
 scipy.optimize.curve_fit for fitting a model to data.
 pandas for manipulating the data.
 
-Load data using pandas. your columns are radians make sure you convert to degrees.
+Load data using pandas. your columns are radians make sure you convert to radians.
 
 Define the function with parameters of your choise
 
 Initialize initial parameter guesses (p0) for the RVM model.
 
-Define parameter bounds (bbounds) for the optimization. The bounds specify the minimum and maximum values for each parameter in degrees.
+Define parameter bounds (bbounds) for the optimization. The bounds specify the minimum and maximum values for each parameter in radians.
 
 Fit the RVM model to the data using scipy.optimize.curve_fit. This function optimizes the parameters to make the model fit the data as closely as possible and returns the optimized parameters in popt and the covariance of the parameters in pcov.
 
